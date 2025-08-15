@@ -1,7 +1,7 @@
 # Shelly_Plug_Control
 
 This piece of code is designed to be run on a ESP32 Super Mini.
-It is able to search for a SHELLY Plug by looking for its MAC address. It can then control certain features of it.
+It is able to search for a SHELLY Plug by looking for its MAC address. It can then control certain features of it. For now it's only able to toggle its state.
 
 When checking out there is one file missing "config.h". This file must be created after checking out and it should contain the following two items:
 #define WIFI_SSID "THE_SSID_TO_CONNECT_TO"
